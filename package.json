@@ -1,0 +1,39 @@
+{
+  "name": "hubot-changelog",
+  "version": "1.0.0",
+  "description": "Shows changes between releases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hubot": "nodemon --exec 'hubot -d'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purposeindustries/hubot-changelog.git"
+  },
+  "keywords": [
+    "hubot",
+    "changelog",
+    "hubot-scripts",
+    "release"
+  ],
+  "author": "oroce <robert@oroszi.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/purposeindustries/hubot-changelog/issues"
+  },
+  "homepage": "https://github.com/purposeindustries/hubot-changelog",
+  "devDependencies": {
+    "hubot": "^2.16.0",
+    "nodemon": "^1.4.1"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "damals": "^0.9.2",
+    "object-assign": "^4.0.1",
+    "parse-link-header": "^0.4.1",
+    "parse-messy-time": "^1.2.1",
+    "request": "^2.61.0",
+    "semver": "^5.0.3"
+  }
+}
